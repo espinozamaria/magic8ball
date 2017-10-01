@@ -2,3 +2,44 @@
 an input field to input a question,
 an ask button that when clicked, will output a random image
 a div/img tag that you can output the image into -->
+<!DOCTYPE html>
+ <html lang="en">
+   <head>
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Magic8Ball</title>
+<!-- Styling Goes here...  -->
+     <!-- Bootstrap -->
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <!-- Custom styles -->
+     <link rel="stylesheet" href="css/styles.css">
+<!-- Styling Ends here... -->
+   </head>
+
+   <body>
+<!-- Input box  -->
+<div class="container">
+  <div class="col-md-12 qbox">
+    <input class ="input-lg" type="text" id = "question" value="Ask your question here. ">
+    <button id = "btn" onclick="randimg()">Ask!</button>
+  </div>
+</div>
+<p></p>
+<img id = "image" src = "img/magic8ball_empty.png"></img>
+
+
+
+
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ <!-- Boostrap JS -->
+     <script src="js/bootstrap.min.js"></script>
+ <!-- Custom JS -->
+     <script src = "js/scripts.js"></script>
+<!-- End of scripting files -->
+   </body>
+ </html>
